@@ -1,0 +1,40 @@
+.top-cart{
+    
+    align-items: center;
+    display: flex;
+    height: 100px;
+    justify-content: center;
+
+    .cart-button{
+        
+        display: inline-block;
+        padding: 8px 15px;
+        border-radius: 20px;
+        font-size: 17px;
+        background: $secondary;
+        color: $background;
+
+
+        span{
+            
+            display: inline-block;
+
+
+            }
+        
+        &__icon{
+            margin-right: 10px; 
+            }
+        &__text{
+            margin-right: 15px;        
+            }
+        &__product_qty{
+            padding-right: 10px; 
+            margin-right: 10px; 
+            border-right: 1px solid $background;
+            }
+
+
+        }
+    
+    }

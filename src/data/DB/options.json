@@ -1,0 +1,7 @@
+[
+    {"id": 1, "group": "paste", "name": "thin"},
+    {"id": 2, "group": "paste", "name": "thick"},
+    {"id": 3, "group": "size", "name": "26 sm"},
+    {"id": 4, "group": "size", "name": "30 sm"},
+    {"id": 5, "group": "size", "name": "40 sm"}
+  ]

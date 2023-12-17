@@ -1,0 +1,44 @@
+header{
+    
+    height: 150px;
+    
+    }
+    
+    .logo{
+    
+    font-size: 30px;
+    position: relative;
+    padding-left: 140px;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    height: 100px;
+    
+    span
+    {
+        transform: skew(40deg, -11deg) translateY(22px);
+        &.logo-bg{
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 0;
+        height: 0;
+        border-left: 70px solid transparent;
+        border-right: 70px solid transparent;
+        border-top: 100px solid $accent;
+        border-radius: 50%;
+            
+            }
+        
+        &.logo-letter{
+        position: absolute;
+        left: 45px;
+        top: 0px;
+        color: $background;
+        font-size: 70px;
+        font-style: italic;
+        font-family: cursive;    
+            }
+        }
+
+    }

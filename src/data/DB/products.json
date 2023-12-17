@@ -1,0 +1,177 @@
+[
+    {
+      "id": 1,
+      "name": "Margherita",
+      "category": ["Vegetarian"],
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Basil"],
+      "image": ["pizza_001_unsplash.jpg", "pizza_026_unsplash.jpg", "pizza_027_unsplash.jpg", "pizza_029_unsplash.jpg", "pizza_030_unsplash.jpg"]
+    },
+    {
+      "id": 2,
+      "name": "Pepperoni",
+      "category": ["Meat", "Spicy"],
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Pepperoni"],
+      "image": ["pizza_002_unsplash.jpg"]
+    },
+    {
+      "id": 3,
+      "name": "Hawaiian",
+      "category": ["Meat"],
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Ham", "Pineapple"],
+      "image": ["pizza_003_unsplash.jpg"]
+    },
+    {
+      "id": 4,
+      "name": "Vegetarian Deluxe",
+      "category": ["Vegetarian"],
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Bell Peppers", "Olives", "Mushrooms", "Onions"],
+      "image": ["pizza_004_unsplash.jpg"]
+    },
+    {
+      "id": 5,
+      "name": "BBQ Chicken",
+      "category": ["Meat"],
+      "ingredients": ["BBQ Sauce", "Mozzarella", "Chicken", "Red Onions", "Cilantro"],
+      "image": ["pizza_005_unsplash.jpg"]
+    },
+    {
+      "id": 6,
+      "name": "Four Cheese",
+      "category": ["Vegetarian", "Grill"],
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Parmesan", "Gorgonzola", "Ricotta"],
+      "image": ["pizza_006_unsplash.jpg", "pizza_026_unsplash.jpg", "pizza_029_unsplash.jpg", "pizza_030_unsplash.jpg"]
+    },
+    {
+      "id": 7,
+      "name": "Meat Lovers",
+      "category": ["Meat"],
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Pepperoni", "Sausage", "Bacon", "Ham"],
+      "image": ["pizza_007_unsplash.jpg", "pizza_026_unsplash.jpg", "pizza_029_unsplash.jpg", "pizza_030_unsplash.jpg"]
+    },
+    {
+      "id": 8,
+      "name": "Veggie Supreme",
+      "category": ["Vegetarian"],
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Mushrooms", "Bell Peppers", "Onions", "Olives"],
+      "image": ["pizza_008_unsplash.jpg"]
+    },
+    {
+      "id": 9,
+      "name": "Chicken Alfredo",
+      "category": ["Meat", "Grill"],
+      "ingredients": ["Alfredo Sauce", "Mozzarella", "Chicken", "Spinach", "Mushrooms"],
+      "image": ["pizza_009_unsplash.jpg"]
+    },
+    {
+      "id": 10,
+      "name": "Pesto Delight",
+      "category": ["Vegetarian", "Spicy"],
+      "ingredients": ["Pesto Sauce", "Mozzarella", "Tomatoes", "Artichokes", "Black Olives"],
+      "image": ["pizza_010_unsplash.jpg", "pizza_026_unsplash.jpg", "pizza_029_unsplash.jpg", "pizza_030_unsplash.jpg"]
+    },
+    {
+      "id": 11,
+      "name": "Supreme",
+      "category": ["Meat"],
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Pepperoni", "Sausage", "Mushrooms", "Onions", "Green Peppers", "Black Olives"],
+      "image": ["pizza_011_unsplash.jpg"]
+    },
+    {
+      "id": 12,
+      "name": "Buffalo Chicken",
+      "category": ["Meat", "Spicy"],
+      "ingredients": ["Buffalo Sauce", "Mozzarella", "Chicken", "Red Onions", "Ranch Drizzle"],
+      "image": ["pizza_012_unsplash.jpg"]
+    },
+    {
+      "id": 13,
+      "name": "Margarita",
+      "category": ["Vegetarian"],
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Tomatoes", "Fresh Basil"],
+      "image": ["pizza_013_unsplash.jpg", "pizza_026_unsplash.jpg", "pizza_029_unsplash.jpg", "pizza_030_unsplash.jpg"]
+    },
+    {
+      "id": 14,
+      "name": "Spinach and Feta",
+      "category": ["Vegetarian"],
+      "ingredients": ["Olive Oil", "Mozzarella", "Spinach", "Feta", "Garlic"],
+      "image": ["pizza_014_unsplash.jpg"]
+    },
+    {
+      "id": 15,
+      "name": "Taco Pizza",
+      "category": ["Meat"],
+      "ingredients": ["Refried Beans", "Mozzarella", "Ground Beef", "Lettuce", "Tomatoes", "Cheddar", "Sour Cream"],
+      "image": ["pizza_015_unsplash.jpg", "pizza_028_unsplash.jpg", "pizza_029_unsplash.jpg"]
+    },
+    {
+      "id": 16,
+      "name": "White Pizza",
+      "category": ["Vegetarian", "Grill"],
+      "ingredients": ["Olive Oil", "Mozzarella", "Ricotta", "Garlic", "Fresh Basil"],
+      "image": ["pizza_016_unsplash.jpg", "pizza_026_unsplash.jpg", "pizza_027_unsplash.jpg"]
+    },
+    {
+      "id": 17,
+      "name": "Shrimp Scampi",
+      "category": ["Seafood"],
+      "ingredients": ["Garlic Butter Sauce", "Mozzarella", "Shrimp", "Tomatoes", "Parsley"],
+      "image": ["pizza_017_unsplash.jpg", "pizza_026_unsplash.jpg", "pizza_027_unsplash.jpg"]
+    },
+    {
+      "id": 18,
+      "name": "Bacon Cheeseburger",
+      "category": ["Meat", "Spicy"],
+      "ingredients": ["Ketchup Mustard Base", "Mozzarella", "Ground Beef", "Bacon", "Pickles", "Cheddar"],
+      "image": ["pizza_018_unsplash.jpg"]
+    },
+    {
+      "id": 19,
+      "name": "Mushroom Lovers",
+      "category": ["Vegetarian", "Spicy", "Grill"],
+      "ingredients": ["Creamy Mushroom Sauce", "Mozzarella", "Portobello Mushrooms", "Button Mushrooms", "Garlic"],
+      "image": ["pizza_019_unsplash.jpg"]
+    },
+    {
+      "id": 20,
+      "name": "Pineapple Jalapeno",
+      "category": ["Vegetarian", "Grill"],
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Pineapple", "Jalapenos", "Red Onions"],
+      "image": ["pizza_020_unsplash.jpg"]
+    },
+    {
+      "id": 21,
+      "name": "Chicken Pesto",
+      "category": ["Meat", "Spicy"],
+      "ingredients": ["Pesto Sauce", "Mozzarella", "Chicken", "Sun-Dried Tomatoes", "Artichokes", "Feta"],
+      "image": ["pizza_021_unsplash.jpg","pizza_026_unsplash.jpg" , "pizza_027_unsplash.jpg"]
+    },
+    {
+      "id": 22,
+      "name": "Buffalo Cauliflower",
+      "category": ["Vegetarian", "Spicy", "Grill"],
+      "ingredients": ["Buffalo Sauce", "Mozzarella", "Roasted Cauliflower", "Red Onion", "Cilantro", "Ranch Drizzle"],
+      "image": ["pizza_022_unsplash.jpg"]
+    },
+    {
+      "id": 23,
+      "name": "Garlic Knot Pizza",
+      "category": ["Vegetarian"],
+      "ingredients": ["Olive Oil", "Mozzarella", "Garlic", "Parmesan", "Fresh Parsley"],
+      "image": ["pizza_023_unsplash.jpg"]
+    },
+    {
+      "id": 24,
+      "name": "Eggplant Parmesan",
+      "category": ["Vegetarian"],
+      "ingredients": ["Tomato Sauce", "Mozzarella", "Breaded Eggplant", "Parmesan", "Fresh Basil"],
+      "image": ["pizza_024_unsplash.jpg", "pizza_026_unsplash.jpg", "pizza_027_unsplash.jpg"]
+    },
+    {
+      "id": 25,
+      "name": "Greek Pizza",
+      "category": ["Vegetarian", "Spicy"],
+      "ingredients": ["Olive Oil", "Mozzarella", "Feta", "Tomatoes", "Kalamata Olives", "Red Onion", "Cucumbers"],
+      "image": ["pizza_025_unsplash.jpg"]
+    }
+  ]

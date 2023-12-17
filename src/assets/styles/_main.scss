@@ -1,0 +1,38 @@
+
+    // $primary: #FF6347;
+    // $secondary: #F4A460;
+    // $accent: #8B4513;
+    // $background: #FFF5EE;
+    // $highlight: #FFD700;
+    
+    $primary: #672901;
+    $secondary: #F76201;
+    $accent: #D41E00;
+    $background: #FEEBA0;
+    // $highlight: #FFD700;
+    
+    body{
+    
+    background: $background;
+    color: $primary;
+    padding: 20px 0;
+    
+
+hr {
+  display: block;
+  height: 1px;
+  width: 80%;
+  border: 0;
+  border-top: 1px solid $primary;
+  margin: 1em auto;
+  padding: 0;
+}
+
+
+    .App{
+        
+        box-shadow: -2px 4px 16px $primary;
+        
+        }
+
+    }
