@@ -1,0 +1,129 @@
+.tagInputRadio {
+
+    input {
+        display: none;
+        cursor: pointer;
+    }
+
+    label {
+
+        display: inline-block;
+        padding: 8px 15px;
+        border-radius: 20px;
+        border: 1px solid $primary;
+        margin: 5px 10px;
+        cursor: pointer;
+
+    }
+
+    input[type='radio']:checked+label {
+        background: $primary;
+        color: $background;
+
+    }
+
+
+}
+
+.searchForm {
+
+    display: inline-block;
+    padding: 8px 15px;
+    border-radius: 20px;
+    border: 1px solid $primary;
+
+    input {
+        width: 0;
+        border: none;
+        border-bottom: 1px solid $primary;
+        background: $background;
+        padding: 5px 0;
+        transition: width 0.5s linear, padding 1s ease-out;
+
+        &:active,
+        &:focus {
+            border: none;
+            border-bottom: 1px solid $primary;
+
+        }
+
+        &.searchfocused {
+            width: 150px;
+
+            padding: 5px 15px;
+        }
+
+    }
+
+    svg {
+
+        cursor: pointer;
+    }
+
+
+}
+
+
+.sorting {
+
+    position: relative;
+
+    span {
+        cursor: pointer;
+    }
+
+    &__selected-type {
+        display: inline-block;
+        width: 40px;
+        text-decoration: underline dashed;
+        text-underline-offset: 4px;
+    }
+
+    &__values {
+
+        position: absolute;
+        right: 0;
+        top: 100%;
+        box-shadow: 5px 5px 5px $primary;
+        background: $background;
+        z-index: 100;
+
+        ul {
+            list-style: none;
+            padding: 0;
+
+            li {
+                cursor: pointer;
+                padding: 5px 10px;
+
+                &:hover {
+                    background: $primary;
+                    color: $background;
+
+                }
+
+            }
+        }
+    }
+
+
+    &.hide {
+
+        .sorting__values {
+            display: none;
+            height: 0;
+            transition: 1s height;
+
+        }
+
+    }
+
+    &.show {
+        .sorting__values {
+            display: block;
+            height: auto;
+            transition: 1s height;
+        }
+    }
+
+}

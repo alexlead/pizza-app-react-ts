@@ -1,5 +1,6 @@
 import React from 'react'
 import TopCart from './Cart/TopCart'
+import { Link } from 'react-router-dom'
 
 const Header = () => {
   return (
@@ -10,9 +11,11 @@ const Header = () => {
           
 
           <div className="col-6 ">
+            <Link to="/">
             <div className="logo">
-              <span className='logo-bg'></span><span className='logo-letter'>P</span>Pizza Website
+              <span className='logo-bg'></span><span className='logo-letter'>PW</span>Pizza Website
             </div>
+            </Link>
           </div>
 
     

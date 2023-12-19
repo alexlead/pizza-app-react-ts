@@ -8,15 +8,21 @@
     $primary: #672901;
     $secondary: #F76201;
     $accent: #D41E00;
-    $background: #FEEBA0;
+    $background: #f5f5f5;
     // $highlight: #FFD700;
     
     body{
     
-    background: $background;
-    color: $primary;
-    padding: 20px 0;
+    // background: $background;
+    // color: $primary;
+    // padding: 20px 0;
     
+    background-color: #fff;
+    font-family: Roboto,sans-serif;
+    margin: 45px auto;
+    max-width: 1340px;
+    padding: 0 15px;
+
 
 hr {
   display: block;
@@ -27,6 +33,11 @@ hr {
   margin: 1em auto;
   padding: 0;
 }
+
+    a{
+        text-decoration: none;
+        
+        }
 
 
     .App{

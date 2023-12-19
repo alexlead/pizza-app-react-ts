@@ -1,30 +1,44 @@
-import Products from "../data/DB/products.json";
-import Prices from "../data/DB/pricebook.json";
-import Options from "../data/DB/options.json";
-import Category from '../components/Product/Category';
+import CategoriesLib from "../data/DB/categories.json"
 
+export type CategoryType = {
+    "id": number,
+    "title": string
+}
+
+export type SortingType = 'price' | 'rating' | 'title'
 
 export type ProductType = {
     
-        "id": number,
-        "name": string,
-        "category": "Vegetarian",
-        "ingredients": string[],
-        "image": string[]
+    "id": string,
+    "images": string[],
+    "title": string,
+    "info": string[],
+    "types": number[],
+    "sizes": number[],
+    "price": number,
+    "category": number,
+    "rating": number,
+    "reviews": number
     
 }
 
-export const CategoryList = (): string[] => {
 
-    const Categories:string[] = Products.map(el=>el.category).flat(1).filter((item, i, ar) => ar.indexOf(item) === i)
+// https://658028cf6ae0629a3f548137.mockapi.io/api/v1/pricebook
+// https://658028cf6ae0629a3f548137.mockapi.io/api/v1/products/
 
-    return Categories;
+export const CategoryList = (): CategoryType[] => {
+    
+    return CategoriesLib;
 } 
 
-export const ProductsPageList = (page: number, filters: string[] ): ProductType[] => {
+export const ProductsPageList = async (page: number = 0, filters: string[] = [] ) => {
     
+        const basedURL = "https://658028cf6ae0629a3f548137.mockapi.io/items";
+        // let getPages:ProductType[] = [];
+        // const catalogProducts = async () => {
+        //     const productsDB = await fetch(basedURL).then(res=>res.json())
+            
+        // }
 
-
-
-    return [];
+    return await fetch(basedURL).then(res=>res.json());
 }
